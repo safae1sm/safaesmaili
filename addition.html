@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>addition</title>
+        <link href="project.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="addition.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+<script src="project.js"></script>
+
+    </head>
+    <body>
+        <header>
+            <img id="s" src="image/giphy.gif" width="200px" height="130px">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="cour.html">Les cours</a>
+            </nav>
+            <h1>L'addition</h1>
+        </header>
+        <main>
+        <h2>Introduction</h2>
+        <p>L'addition est une opération trés simple et élémentaire, en plus nous l’utilisons toujours dans la vie quotidienne, et pour cette raison il faut la maitriser.
+            Son rôle est de calculer la somme de deux nombres.
+            </p>
+        <h2>Techniques de calcule</h2>
+        <p>Quand tu dois additionner deux nombres,<strong> il faut que tu les poses de la manière suivante : écris le
+            premier nombre, va à la ligne et aligne chaque chiffre du deuxième nombre avec ceux du premier
+            nombre, de la droite vers la gauche</strong>. Ensuite, il ne te restes plus qu’à écrire le + et à tracer un trait !
+            </p>
+            <p>Ensuite, <strong> te faut résoudre cette addition. Pour cela, tu vas ajouter les deux chiffres de chaque
+                colonne, en allant de la droite vers la gauche.</strong>
+                Dans l’exemple, dans la première colonne on additionne 3 + 2 qui fait 5. Tu places le 5 en dessous du
+                trait dans la même colonne que le 3 et le 2. Ensuite, on passe à la deuxième colonne et on additionne
+                4 + 1. 4 + 1 = 5, donc tu places le 5 en dessous du trait, dans la même colonne que le 4 et le 1. Enfin,
+                il faut additionner les chiffres de la troisième colonne, ce qui fait 1. Il te reste plus qu’à écrire le 1 en
+                dessous du trait dans la troisième colonne. Le résultat de 143 + 12 est donc 155.
+                </p>  
+            <input type="button" value="<" onclick="document.getElementById('add').src='image/addition.jpg'" > 
+            <img src="image/addition.jpg" id="add" width="750px"> 
+            <input type="button" value=">" onclick="document.getElementById('add').src='image/addition2.jpg'" >
+            <p>Des fois,<strong> la somme des chiffres d’une colonne est égale ou supérieure à 10.</strong> Dans ce cas on écrit en
+                dessous du trait le dernier chiffre du résultat (celui à droite) et on met le premier chiffre (celui à
+                gauche) en retenue. <strong> retenue se met en haut de la colonne suivante. Il ne faudra pas oublier de
+                l’ajouter à la somme obtenue dans la colonne</strong>.
+                E xemple : 143 + 97. Dans la première colonne on fait 3 + 7 = 10. On pose le 0 en dessous du trait et
+                on met la retenue en haut de la deuxième colonne. Dans la deuxième colonne on fait 4 + 9 = 13 et on
+                ajoute la retenue soit 13 + 1 = 14. On pose le 4, en dessous du trait et on retient 1. On marque la
+                retenue en haut de la troisième colonne. On fait ensuite 1 + la retenue soit 1 + 1 = 2 et on pose le 2.
+                Le résultat de 143 + 97 est donc 240.</p>
+                <img src="image/addition3.jpg" height="150px">
+        
+        </main>
+<p>Amusez vous a calculer des valeurs et tester vous résultats ici :) </p>
+        <div>
+        
+        
+        <input id="a" type="number" placeholder="entrer la premier valeur">+
+        <input id="b" type="number" placeholder="entrer la deuxième valeur">=
+        <input id="c" type="number" placeholder="le résultat">
+        <input type="button" value="calculer" onclick="somme()">
+        </div>
+        
+            <object data="image/addition-3+4.gif" height="200px" ></object>
+       
+    </body>
+</html>

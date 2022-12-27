@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>division</title>
+        <script src="project.js"></script>
+        <link href="project.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="addition.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
+
+    </head>
+    <body>
+        <header>
+            <img id="s" src="image/giphy (3).gif" width="200px" height="130px">
+            <nav>
+                <a href="index.html">home</a>
+                <a href="cour.html">les cours</a>
+            </nav>
+            <h1>Division</h1>
+        </header>
+        <h1>La division</h1>
+        <h2>Qu'est-ce que la division?</h2>
+        <p>Diviser quelque chose signifie séparer en plusieur parties; c'est parties sont le résultat de la division d'un
+        nombre sur un autre, donc pour diviser un nombre nous sommes besoin du nombre a diviser est le diviseur sur le quel on divise.<br>
+        on peut dire que la division est l'operation inverse de la multiplication le meme cas dans l'addition et la soustraction</p><br>
+        <p><strong>Exemple:</strong> S'il y a 9 bonbons et 3 enfant ,et vous devriez offrir le même nombre de bonbons a chaque enfant.</p><br>
+            <img class="tr" src="image/s9_3.gif" width="800px" height="180px">
+<h3>Resolution</h3>
+<p>Maintenant, utilisons la division pour résoudre ce problème. Nous divisons le nombre de bonbon sur le nombre d'enfant. 
+    Si nous divisons 9/3, nous obtiendrons le nombre de bonbon pour chaque enfant,<strong>(remarque: 3x3=9)</strong> soit 9/3 = 3 bonbons. Ainsi, nous pouvons voir 
+    que nous obtenons le même résultat dans une période de temps plus courte.</p>
+    <h3>Vocabulair de la division</h3>
+    <p> Dividende x Diviseur =Quotient; où:</p>
+    <u>
+        <li>Dividende: le nombre a divisé .</li>
+        <li>Multiplicateur: le nombre qui divise.</li>
+        <li>Quotient: Le résultat de la division.</li>
+        <li>Reste:le reste de la division</li>
+        <li>Symbole de division: « ÷ » ou '/' ( qui relie l'expression entière )</li>
+        <img class="tr" src="image/dv.jpg" width="800px" height="200px">
+    </u>
+    <h3>NOTER BIEN</h3>
+    <u>
+     <li>la division d'un nombre par 1 egale à le meme nombre</li>
+     <li>la division par 0 est impossible (n'est pas definit)</li> 
+     <li>Pour résoudre une division, il faut bien connaître les tables de multiplication
+        <a href="tablmul.html" target="_blank" >"voir ici!!"</a>
+    </li> 
+    <li>Quand on fait une division, le reste doit toujours être inférieur au diviseur.</li> 
+    </u>
+     <h2>Techniques de calcule</h2> 
+     <p>Pour poser une division, on place le dividende en haut et à gauche de la barre verticale.
+        On place ensuite le diviseur en haut et à droite de la barre verticale.
+        On trace un trait horizontal sous le diviseur pour le séparer du résultat que l'on inscrira en dessous.
+        </p>
+        <img class="tr" src="image/ax.jpg">
+        <p>Pour effectuer une division :<br>
+             On cherche par quel nombre on doit multiplier le ou les premiers chiffres du diviseur pour trouver un nombre 
+            inférieur ou égal au nombre composé par le ou les premiers chiffres du dividende.<br>
+            Le nombre trouvé doit être le plus proche possible du nombre composé par le ou les premiers chiffres du dividende.<br>
+            
+              On place ce chiffre au quotient et on le multiplie par le diviseur.<br>
+              On soustrait le produit obtenu à la partie du dividende correspondante.<br>
+              On abaisse le chiffre suivant du dividende à droite de la différence obtenue.<br>
+              On applique au nouveau nombre les mêmes étapes que précédemment.<br>
+           </p> 
+           <p><strong>Exemple: </strong>120÷5=24</p>
+           <img class="tr" src="image/axe.jpg">
+           <u>
+            <li>ona 1<5 donc on ajoute le 2eme chifre 12>5 </li>
+            <li>«Dans 12, combien y a-t-il de fois 5 ? », il y a 2 fois 5 dans 12. J'écris 2 dans la partie réservée au quotient.</li>
+            <li>Je multiplie 2 par le diviseur : 2 x 5 = 10.  10 -12. Il reste 2.
+               </li>
+            <li> J'abaisse le 0 du dividende.</li>
+            <li>« Dans 20, combien y a-t-il de fois 5 ? », il y a 4 fois 5 dans 20. 
+                J'écris 4 à droite du 2, dans la partie réservée au quotient.</li>
+            <li>Je multiplie 4 par le diviseur : 4 x 5 = 20. 20 - 20. Il reste 0.</li>
+            </u>
+        <h2>Vérifier le résultat d'une division</h2>
+        <p>On peut vérifier le résultat d'une division.<br> Pour cela, il faut multiplier le quotient et le diviseur.
+            On doit normalement retrouver le dividende.</p><br>
+           <p><strong>Exemple:</strong>24x5=120</p><br>
+           <p>Amusez vous a calculer des valeurs et tester vous résultats ici :)</p>
+
+           <div>
+           <input id="a" type="number" placeholder="entrer la premier valeur">÷
+           <input id="b" type="number" placeholder="entrer la deuxième valeur">=
+           <input id="l" type="number" placeholder="le résultat">
+           
+           <input type="button" value="calculer" onclick="div()">
+           </div>
+           <object data="image/division-9div3.gif" height="200px" ></object>
+               
+    </body>
+</html>

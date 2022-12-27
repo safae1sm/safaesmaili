@@ -1,0 +1,99 @@
+h1{
+    font-family: 'Butterfly Kids', cursive;
+    color: rgba(55, 18, 90, 0.929);
+    background-color: rgba(196, 216, 216,50%);
+
+}
+main{
+    background-color: rgba(116, 243, 200,50%);
+}
+h2{
+    color:blue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    padding: 14px;
+}
+
+h3{
+    color:rgb(242, 0, 255);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    padding: 14px;
+}
+
+p{
+    font-size: 20px ;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 1px 16px;
+    border: 1px;
+    background-color: rgba(236, 118, 15, 0.2);
+    border-radius: 10px;
+    
+}
+main>input{
+    border: 1px;
+    border-radius: 50%;
+    padding: 10px;
+    margin-top: 40px;
+    position: absolute;
+}
+main>img{
+    margin:8px 50px;
+    
+}
+strong{
+    color: rebeccapurple;
+}
+div>input{
+    background-color:rgba(125, 36, 69, 0.6);
+    border-radius: 7px;
+    margin-top: 5px;
+    margin-right: 4px;
+    margin-bottom: 70px;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+}
+div>p{
+    color: chocolate;
+    
+    font-family: fantasy;
+}
+object{
+    margin: 10px 300px ;
+}
+#s{
+    float: right;
+}
+input{
+    font-size: 20px;
+    font-weight: bolder;
+    padding: center;
+    text-align: center;
+
+}
+div{
+   
+    background-size: 100%;
+    position:absolute;
+    
+    
+    
+}
+object{
+    display: block;
+   
+    margin-top: 140px;
+}
+#sl{
+    border: 1px;
+    border-radius: 10%;
+    padding: 3px;
+    position: relative;
+    color:orange;
+    margin: 0;
+
+}
+u{
+    text-decoration: none;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tr{margin-left: 200px;}

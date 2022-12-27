@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>math pour enfant</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+        <link href="project.css" rel="stylesheet">
+        <style>
+            body{
+                background-image:url() ;
+                
+                background-repeat:no-repeat;
+                background-size:cover;
+            }
+            input{
+                width:260px;
+                height: 40px;
+                margin-left: 6px;
+                font-size: large;
+            }
+            .nb{
+                margin: 7px; 
+                padding: 7px;
+                color: rgb(73, 78, 175);
+                background-color: pink;
+                width: 75px;
+                height: 65px;
+                border-radius: 8px;
+                
+            }
+            #cal{
+                background-color: black;
+                height: 400px;
+                width: 370px;
+                margin: 95px 450px;
+                
+                display:block;
+                
+            }
+            
+           
+
+        </style>
+        
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="cour.html">Les cours</a>
+            </nav>
+            <h1><div class="l">l</div><div id="ap">'</div><div id="i">i</div><div class="l">l</div><div class="e">e </div><div id="d">d</div><div class="e">e</div><div id="s">s </div><div id="m">m</div><div id="a">a</div><div id="t">t</div><div id="h">h</div><div id="s1">s </div></h1>
+
+            
+        </header>
+        <form>
+            <div id="cal">
+            <input type="text" id="res">
+            <input type="button" class="nb" value="c" onClick="document.forms[0].elements[0].value=''"><br>
+            <input type="button" class="nb" value="1" onClick="document.forms[0].elements[0].value+=1">
+            <input type="button" class="nb" value="2" onClick="document.forms[0].elements[0].value+=2">
+            <input type="button" class="nb" value="3" onClick="document.forms[0].elements[0].value+=3">
+            <input type="button" class="nb" value="+" onClick="document.forms[0].elements[0].value+='+'"><br>
+            <input type="button" class="nb" value="4" onClick="document.forms[0].elements[0].value+=4">
+            <input type="button" class="nb" value="5" onClick="document.forms[0].elements[0].value+=5">
+            <input type="button" class="nb" value="6" onClick="document.forms[0].elements[0].value+=6">
+            <input type="button" class="nb" value="-" onClick="document.forms[0].elements[0].value+='-'"><br>
+            <input type="button" class="nb" value="7" onClick="document.forms[0].elements[0].value+=7">
+            <input type="button" class="nb" value="8" onClick="document.forms[0].elements[0].value+=8">
+            <input type="button" class="nb" value="9" onClick="document.forms[0].elements[0].value+=9">
+            <input type="button" class="nb" value="*" onClick="document.forms[0].elements[0].value+='*'"><br>
+            <input type="button" class="nb" value="0" onClick="document.forms[0].elements[0].value+=0">
+            <input type="button" class="nb" value="." onClick="document.forms[0].elements[0].value+='.'">
+            <input type="button" class="nb" value="/" onClick="document.forms[0].elements[0].value+='/'">
+            <input type="button" class="nb" value="=" onClick="document.forms[0].elements[0].value=eval(document.getElementById('res').value )">
+            </div>
+        </form>
+    </body>
+</html>

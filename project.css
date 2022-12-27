@@ -1,0 +1,82 @@
+body{
+    background-image:url(image/Zoom-Background-Math-800x451.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:scroll;   
+}
+#qz{
+    background-image: none;
+    background-color: rgba(255, 236, 22, 0.947);
+    background-repeat:  repeat-y;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header>h1{
+    font-size: 45px; 
+    font-family: 'Cinzel Decorative', cursive;
+    text-align: center;   
+}
+nav{
+    float:left;
+    display: inline;
+    position: absolute;
+}
+
+header>div{
+    display:inline;
+}
+.l{
+    color:orangered
+}
+#ap{
+    color:rgb(59, 83, 201)
+}
+#i{
+    color:rgb(183, 48, 181)
+}
+.e{
+    color:rgb(41, 158, 49)
+}
+#d{
+    color:rgb(31, 77, 169)
+}
+#e{
+    color:rgb(29, 210, 35)
+}
+#s{
+    color:tomato
+}
+#m{
+    color:orange
+}
+#a{
+    color:rgb(61, 172, 111)
+}
+#t{
+    color:rgb(255, 150, 127)
+}
+#h{
+    color:darkorange
+}
+#s1{
+    color:rgb(33, 202, 220)
+}
+
+
+div{
+    display: inline;
+}
+a{
+    font-family: 'Righteous', cursive;
+    color: white;
+    text-decoration: none
+    
+}
+nav>a{
+    border: 3px inset;
+    background-color: rgb(63, 150, 96);
+    color: rgb(101, 16, 33);
+}
+

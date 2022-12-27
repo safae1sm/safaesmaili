@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>math pour enfant</title>
+        <link href="project.css" rel="stylesheet">
+        <link href="index.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <header id="imag">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="cour.html">Les cours</a>
+                <a href="quiz.html">Quiz</a>
+            </nav>
+            
+            <h1><div class="l">l</div><div id="ap">'</div><div id="i">i</div><div class="l">l</div><div class="e">e </div><div id="d">d</div><div class="e">e</div><div id="s">s </div><div id="m">m</div><div id="a">a</div><div id="t">t</div><div id="h">h</div><div id="s1">s </div></h1>
+             <p>Bienvenus!!</p>
+            <a class="button" href="cour.html">Commencer</a>
+            <p id="intro">hello</p>
+        </header>
+        <script>
+            i=0;
+                function echanger(){
+                    t=['red','blue','yellow','pink','grey'];
+                    T=['Addition','Soustraction','Multiplication','Division',"..."];
+                    h=['url("image/study.jpg")','url("image/newbc.jpg")','url("image/boost-math-skills-in-kids.jpg")','url("image/indbc.jpg")','url(image/math.jpg)']
+                    document.getElementById('imag').style.backgroundImage=h[i];
+                    document.getElementById('intro').style.backgroundColor=t[i];
+                    document.getElementById('intro').innerHTML=T[i];
+                i++;if(i==5){i=0}}
+                setInterval(echanger,2000)
+                
+            </script>
+    
+        
+        
+        <footer>
+            <a></a>
+            <address>safae.smaili@um5r.ac.ma</address>
+            <p></p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,38 @@
+body{
+    background-image: url(image/bcmath.jpg);
+}
+section{
+    float:left;
+    background-color: rgba(128, 158, 79,50%);
+    height: 100%;
+    
+}
+section>h3{
+    font-family: 'Yellowtail', cursive;
+    font-size: 50px;
+    color: rgba(5, 65, 5, 0.826);
+    padding: 10px;
+}
+section>a{
+    font-size: 40px;
+    font-family: 'Audiowide';
+    display: block;
+    padding: 10px;
+
+}
+.add{
+    color:rgb(128, 46, 17)
+}
+.sust{
+    color: blue;
+}
+.mul{
+    color: darkslateblue;
+}
+.div {
+    color:palevioletred
+}
+object{
+    margin: 100px;
+    position: fixed;
+}

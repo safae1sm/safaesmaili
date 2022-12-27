@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<head>
+   
+    <title>quiz</title>
+    <script src="project.js"></script>
+    <link href="project.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
+<style>
+   
+    .qt{
+        border-color: aquamarine;
+        border: 2px solid;
+        padding: 40px;
+        margin: 10px;
+        display: block;
+        width: 390px;
+        margin-bottom: 30px;
+        background-color: rgba(42, 118, 205,0.6);
+    }
+    .rp{
+        border-color: aquamarine;
+        border: 2px solid;
+        padding: 40px;
+        margin: 10px;
+        display: inline;
+        width: 70px;
+        height: 50px;
+        background-color: rgba(230, 108, 165, 0.6);
+
+    }
+    .im{
+        margin-bottom: 50px;
+        margin-left: 160px;
+    }
+    .for{
+        display: block;
+        margin: 45px 230px;
+        font-family: cursive;
+        font-size: 30px;
+        width: 650px;
+        position: relative;
+    }
+    .vr{
+        background-color: rgb(130, 108, 151);
+        border: 1px ;
+        width: 50px;
+        height: 40px;
+        border-radius: 5px;
+    }
+    fieldset{
+        margin: 10px;
+        font-size: 30px;
+        width: 450px;
+        
+    }
+</style>
+</head>
+
+<body id="qz">
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="cour.html">Les cours</a>
+        </nav>
+        <h1><div class="l">l</div><div id="ap">'</div><div id="i">i</div><div class="l">l</div><div class="e">e </div><div id="d">d</div><div class="e">e</div><div id="s">s </div><div id="m">m</div><div id="a">a</div><div id="t">t</div><div id="h">h</div><div id="s1">s </div></h1>
+
+        
+    </header>
+    <form>
+        <fieldset>
+            <legend>l'addition</legend>
+        <div class="for">
+            <label for="15+13" class="qt">15+13=</label><img class="im" id="rep" width="160px" height="160px"><br>
+            <label for="18" class="rp">18</label>
+            <input type="radio" id="18" name="15+13">
+            <label for="37" class="rp">37</label>
+            <input type="radio" id="37"  name="15+13">
+            <label for="28"class="rp">28</label>
+            <input type="radio" id="28" name="15+13" >
+            <input type="button" value="verifier" class="vr" onclick="choix()"><br>
+        </div>
+        <div class="for">
+            <label for="29+19" class="qt">29+19=</label><img class="im" id="re" width="160px" height="160px"><br>
+            <label for="44" class="rp">44</label>
+            <input type="radio" id="44" name="29+19">
+            <label for="48" class="rp">48</label>
+            <input type="radio" id="48"  name="29+19">
+            <label for="56"class="rp">56</label>
+            <input type="radio" id="56" name="29+19" >
+            <input type="button" value="verifier" class="vr" onclick="choix1()"><br>
+        </div>
+        <div class="for">
+            <label for="123+452" class="qt">123+452=</label><img class="im" id="rep2" width="160px" height="160px"><br>
+            <label for="562" class="rp">562</label>
+            <input type="radio" id="562" name="123+452">
+            <label for="575" class="rp">575</label>
+            <input type="radio" id="575"  name="123+452">
+            <label for="476"class="rp">476</label>
+            <input type="radio" id="476" name="123+452" >
+            <input type="button" value="verifier" class="vr" onclick="choix2()"><br>
+        </div>
+        <div class="for">
+            <label for="33+72" class="qt">33+72=</label><img class="im" id="rep3" width="160px" height="160px"><br>
+            <label for="99" class="rp">99</label>
+            <input type="radio" id="99" name="33+72">
+            <label for="100" class="rp">100</label>
+            <input type="radio" id="100"  name="33+72">
+            <label for="105"class="rp">105</label>
+            <input type="radio" id="105" name="33+72" >
+            <input type="button" value="verifier" class="vr" onclick="choix3()"><br>
+        </div>
+        <div class="for">
+            <label for="13+44+161" class="qt">13+44+161=</label><img class="im" id="rep4" width="160px" height="160px"><br>
+            <label for="218" class="rp">218</label>
+            <input type="radio" id="218" name="13+44+161">
+            <label for="57" class="rp">57</label>
+            <input type="radio" id="57"  name="13+44+161">
+            <label for="89"class="rp">89</label>
+            <input type="radio" id="89" name="13+44+161" >
+            <input type="button" value="verifier" class="vr" onclick="choix4()"><br>
+        </div>
+        </fieldset>
+
+
+
+        <!--Soustraction-->
+
+        <fieldset>
+            <legend>Soustraction</legend>
+        <div class="for">
+            <label for="15-13" class="qt">15-13=</label><img class="im" id="re1" width="160px" height="160px"><br>
+            <label for="28-" class="rp">28</label>
+            <input type="radio" id="28-" name="15-13">
+            <label for="2" class="rp">2</label>
+            <input type="radio" id="2"  name="15-13">
+            <label for="5"class="rp">5</label>
+            <input type="radio" id="5" name="15-13" >
+            <input type="button" value="verifier" class="vr" onclick="choi1()"><br>
+        </div>
+        <div class="for">
+            <label for="29-19" class="qt">29-19=</label><img class="im" id="re2" width="160px" height="160px"><br>
+            <label for="0" class="rp">0</label>
+            <input type="radio" id="0" name="29-19">
+            <label for="10" class="rp">10</label>
+            <input type="radio" id="10"  name="29-19">
+            <label for="3"class="rp">3</label>
+            <input type="radio" id="3" name="29-19" >
+            <input type="button" value="verifier" class="vr" onclick="choi2()"><br>
+        </div>
+        <div class="for">
+            <label for="452-123" class="qt">452-123=</label><img class="im" id="re3" width="160px" height="160px"><br>
+            <label for="329" class="rp">329</label>
+            <input type="radio" id="329" name="452-123">
+            <label for="123" class="rp">123</label>
+            <input type="radio" id="123"  name="452-123">
+            <label for="331"class="rp">331</label>
+            <input type="radio" id="331" name="452-123" >
+            <input type="button" value="verifier" class="vr" onclick="choi3()"><br>
+        </div>
+        <div class="for">
+            <label for="200-114" class="qt">200-114=</label><img class="im" id="re4" width="160px" height="160px"><br>
+            <label for="99-" class="rp">99</label>
+            <input type="radio" id="99-" name="200-114">
+            <label for="111" class="rp">111</label>
+            <input type="radio" id="111"  name="200-114">
+            <label for="86"class="rp">86</label>
+            <input type="radio" id="86" name="200-114" >
+            <input type="button" value="verifier" class="vr" onclick="choi4()"><br>
+        </div>
+        <div class="for">
+            <label for="145-13-78" class="qt">145-13-78=</label><img class="im" id="re5" width="160px" height="160px"><br>
+            <label for="54" class="rp">54</label>
+            <input type="radio" id="54" name="145-13-78">
+            <label for="57-" class="rp">57</label>
+            <input type="radio" id="57-"  name="145-13-78">
+            <label for="132"class="rp">132</label>
+            <input type="radio" id="132" name="145-13-78" >
+            <input type="button" value="verifier" class="vr" onclick="choi5()"><br>
+        </div>
+        </fieldset>
+
+        <!--multiplication-->
+        <fieldset>
+            <legend>Multiplication</legend>
+        <div class="for">
+            <label for="15x0" class="qt">15 x 0=</label><img class="im" id="r1" width="160px" height="160px"><br>
+            <label for="15" class="rp">15</label>
+            <input type="radio" id="15" name="15x0">
+            <label for="00" class="rp">0</label>
+            <input type="radio" id="00"  name="15x0">
+            <label for="1"class="rp">1</label>
+            <input type="radio" id="1" name="15x0" >
+            <input type="button" value="verifier" class="vr" onclick="ch1()"><br>
+        </div>
+        <div class="for">
+            <label for="29x1" class="qt">29 x 1=</label><img class="im" id="r2" width="160px" height="160px"><br>
+            <label for="0-" class="rp">0</label>
+            <input type="radio" id="0-" name="29x1">
+            <label for="1-" class="rp">1</label>
+            <input type="radio" id="1-"  name="29x1">
+            <label for="29"class="rp">29</label>
+            <input type="radio" id="29" name="29x1" >
+            <input type="button" value="verifier" class="vr" onclick="ch2()"><br>
+        </div>
+        <div class="for">
+            <label for="9x7" class="qt">9x7=</label><img class="im" id="r3" width="160px" height="160px"><br>
+            <label for="54." class="rp">54</label>
+            <input type="radio" id="54." name="9x7">
+            <label for="72" class="rp">72</label>
+            <input type="radio" id="72"  name="9x7">
+            <label for="63"class="rp">63</label>
+            <input type="radio" id="63" name="9x7" >
+            <input type="button" value="verifier" class="vr" onclick="ch3()"><br>
+        </div>
+        <div class="for">
+            <label for="145x3" class="qt">145 x 3 =</label><img class="im" id="r4" width="160px" height="160px"><br>
+            <label for="54-" class="rp">54</label>
+            <input type="radio" id="54-" name="145x3">
+            <label for="435" class="rp">435</label>
+            <input type="radio" id="435"  name="145x3">
+            <label for="321"class="rp">321</label>
+            <input type="radio" id="321" name="145x3" >
+            <input type="button" value="verifier" class="vr" onclick="ch4()"><br>
+        </div>
+        <div class="for">
+            <label for="18x53" class="qt">18 x 53=</label><img class="im" id="r5" width="160px" height="160px"><br>
+            <label for="144" class="rp">144</label>
+            <input type="radio" id="144" name="18x53">
+            <label for="630" class="rp">630</label>
+            <input type="radio" id="630"  name="18x53">
+            <label for="954"class="rp">954</label>
+            <input type="radio" id="954" name="18x53" >
+            <input type="button" value="verifier" class="vr" onclick="ch5()"><br>
+        </div>
+        </fieldset>
+
+</form>
+</body>
+</html>
